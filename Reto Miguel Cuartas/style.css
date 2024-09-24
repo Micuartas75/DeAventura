@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.catalogo-propiedades {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.tarjeta-propiedad {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.tarjeta-propiedad img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.tarjeta-propiedad h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.tarjeta-propiedad p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.tarjeta-propiedad button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tarjeta-propiedad button:hover {
+    background-color: #004d40;
+}
+
+/* Estilo del formulario */
+.formulario-solicitud {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.formulario-solicitud h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.formulario-solicitud label {
+    font-weight: bold;
+}
+
+.formulario-solicitud input,
+.formulario-solicitud textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formulario-solicitud button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.formulario-solicitud button:hover {
+    background-color: #004d40;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Catálogo de Propiedades</title>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Propiedades</h1>
+    </header>
+
+    <section class="catalogo-propiedades">
+
+        <div class="tarjeta-propiedad">
+            <img src="./img/propiedad1.jpg" alt="Propiedad 1">
+            <h2>Casa en la playa</h2>
+            <p>Hermosa casa frente al mar con 4 habitaciones, 3 baños y una increíble vista al océano.</p>
+            <p>Precio: $500,000</p>
+            <button onclick="mostrarFormulario('Casa en la playa')">Solicitar más información</button>
+        </div>
+
+        <div class="tarjeta-propiedad">
+            <img src="./img/propiedad2.jpg" alt="Propiedad 2">
+            <h2>Apartamento en el centro</h2>
+            <p>Moderno apartamento en el corazón de la ciudad con 2 habitaciones y 1 baño.</p>
+            <p>Precio: $300,000</p>
+            <button onclick="mostrarFormulario('Apartamento en el centro')">Solicitar más información</button>
+        </div>
+
+        <div class="tarjeta-propiedad">
+            <img src="./img/propiedad3.jpg" alt="Propiedad 3">
+            <h2>Casa de campo</h2>
+            <p>Casa rural con amplio terreno, ideal para quienes buscan tranquilidad y naturaleza.</p>
+            <p>Precio: $250,000</p>
+            <button onclick="mostrarFormulario('Casa de campo')">Solicitar más información</button>
+        </div>
+    </section>
+
+    <!-- Formulario para solicitar más información -->
+    <section class="formulario-solicitud">
+        <h2>Solicitar más información sobre: <span id="propiedad-seleccionada"></span></h2>
+        <form id="form-solicitud">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="consulta">Consulta:</label>
+            <textarea id="consulta" name="consulta" rows="4" required></textarea>
+
+            <button type="submit">Enviar solicitud</button>
+        </form>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
