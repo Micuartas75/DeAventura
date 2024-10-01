@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Consultoría</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        article {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background: #eaeaea;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 400px;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Servicios de Consultoría</h1>
+
+    <section>
+        <article>
+            <h2>Consultoría Estratégica</h2>
+            <p>Ayudamos a las empresas a definir sus objetivos y desarrollar estrategias efectivas para alcanzarlos. Nuestros expertos analizan su situación actual y proponen soluciones personalizadas.</p>
+            <a href="#">Más información</a>
+        </article>
+
+        <article>
+            <h2>Consultoría Financiera</h2>
+            <p>Ofrecemos asesoría en la gestión de recursos financieros, incluyendo planificación fiscal y optimización de costos. Nuestro objetivo es mejorar la salud financiera de su negocio.</p>
+            <a href="#">Más información</a>
+        </article>
+
+        <article>
+            <h2>Consultoría en Recursos Humanos</h2>
+            <p>Desarrollamos estrategias para la gestión del talento humano, incluyendo reclutamiento, capacitación y desarrollo organizacional. Ayudamos a crear un ambiente de trabajo positivo y productivo.</p>
+            <a href="#">Más información</a>
+        </article>
+    </section>
+
+    <h2>Solicitar Cotización</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="empresa">Empresa:</label>
+        <input type="text" id="empresa" name="empresa" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="servicio">Tipo de Servicio:</label>
+        <select id="servicio" name="servicio" required>
+            <option value="">Seleccione un servicio</option>
+            <option value="estrategica">Consultoría Estratégica</option>
+            <option value="financiera">Consultoría Financiera</option>
+            <option value="rrhh">Consultoría en Recursos Humanos</option>
+        </select>
+
+        <label for="proyecto">Descripción de su Proyecto:</label>
+        <textarea id="proyecto" name="proyecto" rows="4" required></textarea>
+
+        <button type="submit">Enviar Cotización</button>
+    </form>
+
+</body>
+</html>
